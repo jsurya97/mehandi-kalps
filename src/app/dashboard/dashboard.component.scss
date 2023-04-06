@@ -1,0 +1,89 @@
+// .slick-wrapper{
+//     width: 1000px;
+//     margin: 20px auto;
+// }
+
+.slick-prev:before, .slick-next:before {
+    color: black!important;
+    height: 225px;
+}
+::ng-deep.slick-dots {
+    bottom: 4px !important;
+}
+
+.carousel-continer {
+    width: 100%;
+}
+
+.dashboard-container {
+    position: relative;
+    width: 100%;
+}
+
+.header-continer {
+    position: absolute;
+    top: 212px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+
+
+
+// middle start
+.header-title {
+    height: 112px;
+    width: 100%;
+    z-index: 1;
+    background-color: #6c2400;
+    position: relative;
+    top: -32px;
+    text-align: center;
+    padding-top: 1px;
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    margin-top: 14px;
+}
+
+.mid-letter{
+    font-size: 18px;
+    width: 300px;
+    margin: auto;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.con {
+    background: #e5c05e;
+    margin: -4px 0 0px 0;
+    padding: 15px 15px;
+    text-align: center;
+    h5{
+        margin: 0;
+        color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    a{
+        text-decoration: none;
+    color: #000;
+    }
+    }
+}
+
+.mid-one-title {
+    margin: -23px 0px 15px 0;
+    text-align: center;
+    
+    font-family: "Poppins", sans-serif;;
+}

@@ -1,11 +1,185 @@
-<ngx-slick-carousel class="carousel"
-                        #slickModal="slick-carousel"
-                        [config]="slideConfig" 
-                        (init)="slickInit($event)"
-                        (breakpoint)="breakpoint($event)"
-                        (afterChange)="afterChange($event)"
-                        (beforeChange)="beforeChange($event)">
-        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
-              <img src="{{ slide.img }}" alt="" width="100%">
-        </div>
-</ngx-slick-carousel>
+<div class="dashboard-container">
+  <div class="header-continer">
+    <!-- <app-header></app-header> -->
+  </div>
+
+  <div class="carousel-continer">
+    <ngx-slick-carousel
+      class="carousel"
+      #slickModal="slick-carousel"
+      [config]="slideConfig"
+      (init)="slickInit($event)"
+      (breakpoint)="breakpoint($event)"
+      (afterChange)="afterChange($event)"
+      (beforeChange)="beforeChange($event)"
+    >
+      <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+        <img src="{{ slide.img }}" alt="" height="500px" width="100%" />
+      </div>
+    </ngx-slick-carousel>
+  </div>
+  <!-- <img
+    src="../../assets/image/banner-01.png"
+    alt=""
+    height="600px"
+    width="100%"
+  />
+  <img
+    src="../../assets/image/banner-01.png"
+    alt=""
+    height="300px"
+    width="100%"
+  /> -->
+
+  <!-- middle page start -->
+  <div class="header-title">
+    <div class="wow fadeInUp animated animated" style="visibility: visible">
+      <h1 class="mid-letter">
+        <span style="color: #fff"
+          >Committed to making your special occasion a memorable one</span
+        >
+      </h1>
+    </div>
+    <!-- title -->
+
+    <div
+      style="
+        position: absolute;
+        top: -79px;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        pointer-events: none;
+      "
+    >
+      <svg
+        class="chevron-red"
+        style="fill: #6c2400; position: relative; left: 0"
+        fill-opacity="1"
+        height="80px"
+        preserveAspectRatio="none"
+        version="1.1"
+        viewBox="0 0 100 100"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="m0,100l50,-50l50,50l-100,0" stroke-width="0"></path>
+      </svg>
+    </div>
+    <!-- svg red image -->
+
+    <div
+      style="
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        pointer-events: none;
+      "
+    >
+      <svg
+        style="fill: #fff; position: relative; left: 0"
+        fill-opacity="1"
+        height="70px"
+        preserveAspectRatio="none"
+        version="1.1"
+        viewBox="0 0 100 100"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="m0,100l50,-50l50,50l-100,0" stroke-width="0"></path>
+      </svg>
+    </div>
+    <!-- svg white image -->
+  </div>
+  <!-- moddle page end -->
+
+  <!-- mid 1 -->
+  <div>
+    <h1 class="mid-one-title">OUR SERVICES</h1>
+
+    <div class="servive images">
+      <div>
+            <div class="con">
+                  <h5><a href="heavy-mehandi.html">Bridal Mehndi Designs</a></h5>
+                </div>
+        <img
+          width="100%"
+          height="300px"
+          src="../../assets/image/bridal-mehndi-design.jpg"
+          alt=""
+        />
+   
+      </div>
+      <div>
+            <div class="con">
+                  <h5><a href="heavy-mehandi.html">Bridal Mehndi Designs</a></h5>
+                </div>
+              </div>
+        <img
+          width="100%"
+          height="300px"
+          src="../../assets/image/heavy-mehndi-design.jpg"
+          alt=""
+        />
+     
+      <div>
+            <div class="con">
+                  <h5><a href="heavy-mehandi.html">Bridal Mehndi Designs</a></h5>
+                </div>
+        <img
+          width="100%"
+          height="300px"
+          src="../../assets/image/leg-mehndi-design.jpg"
+          alt=""
+        />
+   
+      </div>
+
+      <div>
+
+            <div class="con">
+                  <h5><a href="heavy-mehandi.html">Bridal Mehndi Designs</a></h5>
+                </div>
+        <img
+          width="100%"
+          height="300px"
+          src="../../assets/image/arabic-mehndi-design.jpg"
+          alt=""
+        />
+    
+      </div>
+
+      <div>
+            <div class="con">
+                  <h5><a href="heavy-mehandi.html">Bridal Mehndi Designs</a></h5>
+                </div>
+        <img
+          width="100%"
+          height="300px"
+          src="../../assets/image/jaipuri-mehndi-design.jpg"
+          alt=""
+        />
+
+     
+      </div>
+
+      <div>
+            <div class="con">
+                  <h5><a href="heavy-mehandi.html">Bridal Mehndi Designs</a></h5>
+                </div>
+        <img
+          width="100%"
+          height="300px"
+          src="../../assets/image/rajistani-mehndi-design.jpg"
+          alt=""
+        />
+
+       
+      </div>
+    </div>
+  </div>
+
+  <!-- mid 1 end -->
+</div>

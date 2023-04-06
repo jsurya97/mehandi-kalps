@@ -28,18 +28,20 @@
     </div>
   </div>
 
-
-
-
   <!-- mobile menu started bar -->
 
   <div class="phone" *ngIf="commonService.isMobile()">
-    <input type="radio" name="s" id="s1">
-    <input type="radio" name="s" id="s2" checked="checked">
-    <input type="radio" name="s" id="s3">
-    <label for="s1"><img src="http://co0kie.github.io/codepen/mobile-nav/facebook.svg" alt=""></label>
-    <label for="s2"><img src="http://co0kie.github.io/codepen/mobile-nav/twitter.svg" alt=""></label>
-    <label for="s3"><img src="http://co0kie.github.io/codepen/mobile-nav/instagram.svg" alt=""></label>
+    <input type="radio" name="s" id="s1" />
+    <input type="radio" name="s" id="s2" checked="checked" />
+    <input type="radio" name="s" id="s3" />
+    <label for="s1"
+      ><img src="../../assets/image/home_icon.svg" alt="" />
+      <div style="margin-top: 40px">home</div>
+      </label>
+    <label for="s2"><img src="../../assets/image/about-us.svg" alt="" />
+      <div style="margin-top: 40px">About Us</div></label>
+      <label for="s3"><img src="../../assets/image/contact-us.svg" alt="" />
+        <div style="margin-top: 40px">Contact</div></label>
     <div class="circle"></div>
     <div class="phone_content">
       <div class="phone_bottom">
@@ -47,8 +49,6 @@
       </div>
     </div>
   </div>
-
 </div>
-
 
 <!-- mobile menu ended -->

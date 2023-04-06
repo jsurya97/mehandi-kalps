@@ -270,7 +270,7 @@
   // mobile menu start
   @media screen and (max-width: 480px) {
     .phone {
-      width: 320px;
+      width: 100%;
       height: 70px;
       margin: auto;
       display: flex;
@@ -298,6 +298,7 @@
     .phone_content {
       filter: contrast(20);
       width: 100%;
+      border-radius: 18px;
       background-color: white;
       overflow: hidden;
       position: absolute;
@@ -320,7 +321,7 @@
       cursor: pointer;
       display: flex;
       width: 33%;
-      height: 66px;
+      height: 83px;
       position: relative;
       z-index: 2;
       align-items: center;
@@ -373,7 +374,7 @@
     }
   
     #s1:checked~[for="s1"]>img {
-      top: -85px;
+      top: -71px;
     }
   
     #s1:checked~.circle,
@@ -382,7 +383,7 @@
     }
   
     #s2:checked~[for="s2"]>img {
-      top: -85px;
+      top: -71px;
     }
   
     #s2:checked~.circle,
@@ -391,7 +392,7 @@
     }
   
     #s3:checked~[for="s3"]>img {
-      top: -85px;
+      top: -71px;
     }
   
     #s3:checked~.circle,
